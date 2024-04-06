@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work-Life Balance by Stefan de Goede</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Work-Life Balance</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#tips">Tips</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Work-Life Balance</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ante in nunc viverra tempor. Quisque ac consectetur felis. Donec vel bibendum velit. Nullam vel mi eget leo finibus sollicitudin. Suspendisse potenti.</p>
+            <p>Curabitur quis vestibulum nulla. Proin nec diam non ligula volutpat luctus sit amet at sapien. Fusce id lectus at velit viverra volutpat. Vivamus id fermentum magna.</p>
+        </div>
+    </section>
+
+    <section id="tips">
+        <div class="container">
+            <h2>Tips for Maintaining Work-Life Balance</h2>
+            <ul>
+                <li>Set boundaries between work and personal life.</li>
+                <li>Make time for hobbies and relaxation.</li>
+                <li>Communicate openly with your employer about workload and expectations.</li>
+                <li>Practice time management and prioritize tasks.</li>
+                <li>Take regular breaks throughout the workday.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to contact us.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Work-Life Balance Inc.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
